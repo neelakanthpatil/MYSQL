@@ -1,3 +1,5 @@
+service mysql restart
+
 Commands to run the MySql Commands in GoormIDE:
 
 root@goorm:/workspace/SQL_PYTHON_LEARNING# mysql

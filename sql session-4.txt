@@ -1,0 +1,32 @@
+Session-4
+------------
+primary key
+unique key
+AUTO INCREMENT
+
+CRUD Operations
+
+Create - Insert
+Read - Select
+Update - Update
+Delete - Delete
+
+create table employee
+(
+id int primary key,
+firstname varchar(50) not null,
+middlename varchar(50),
+lastname varchar(50) not null,
+age int not null,
+salaray int not null,
+location varchar(100) NOT NULL DEFAULT 'Bangalore'
+);
+
+insert into employee(id, firstname,lastname,age,salaray)
+values(1,'Ramesh','Patil',25,10000);
+
+insert into employee(id, firstname,lastname,age,salaray)
+values(1,'Suresh','Patil',30,20000);
+
+insert into employee(id, firstname,lastname,age,salaray)
+values(1,'Jinesh','Patil',35,30000);

@@ -1,0 +1,14 @@
+MySQL Workbench Configuration:
+
+ssh -p 51883 root@65.1.3.120
+
+65.1.3.120:51883
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+
+-----------------
+service mysql restart
+
+mysqladmin -u root root
+
+mysql -u root -p root
